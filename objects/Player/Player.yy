@@ -17,7 +17,7 @@
     "name":"Entity_pai",
     "path":"objects/Entity_pai/Entity_pai.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

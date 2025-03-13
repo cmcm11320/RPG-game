@@ -4,6 +4,8 @@ event_inherited();
 
 aberto = 0;
 interacted = 0;
+
+
 #region estado_idle
 
 
@@ -40,13 +42,11 @@ estado_animation.inicio = function(){
 }
 estado_animation.mid = function(){
 
-show_debug_message("aqui vai ganhar um item foda");
+	show_debug_message("aqui vai ganhar um item foda");
+	//add item to inventory
+	InventoryAdd(O_Inventory,itemfoda);
 
-
-	if(image_index>=image_number-1){
-		show_debug_message("ola");
-		change_estado(estado_final);
-	}
+	change_estado(estado_final);
 
 }
 

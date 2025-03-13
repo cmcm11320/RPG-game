@@ -9,8 +9,8 @@
   "name":"decor_pai",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Parent",
+    "path":"folders/Objects/Parent.yy",
   },
   "parentObjectId":{
     "name":"colisao_obj",
@@ -32,6 +32,7 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"transparente","filters":[],"listItems":[],"multiselect":false,"name":"transparente","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"interact_able","filters":[],"listItems":[],"multiselect":false,"name":"interact_able","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"itemfoda","filters":[],"listItems":[],"multiselect":false,"name":"itemfoda","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"SOP",
-    "path":"SOP.yyp",
+    "name":"RPG-Game",
+    "path":"RPG-Game.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

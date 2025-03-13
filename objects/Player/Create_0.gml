@@ -5,6 +5,11 @@
 
 event_inherited();
 
+if(room == Frente_Casa){
+
+show_debug_message("destruido");
+}
+
 meu_dano = noone;
 meu_interact = noone;
 

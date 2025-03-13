@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Entity_pai","path":"objects/Entity_pai/Entity_pai.yy",},"propertyId":{"name":"enemy","path":"objects/Entity_pai/Entity_pai.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
-    "name":"NPC",
-    "path":"folders/Objects/Entitys/NPC.yy",
+    "name":"Enemy",
+    "path":"folders/Objects/Entitys/NPC/Enemy.yy",
   },
   "parentObjectId":{
     "name":"Entity_pai",
