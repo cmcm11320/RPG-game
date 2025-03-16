@@ -1,10 +1,13 @@
+
 draw_sprite_stretched(
 //desenha o fundo do inventario e coloca os slots
 
 S_inventory,
 0,
-x-6,
-y-6,
+//x-6,
+//y-6,
+x,
+y,
 12+rowLenght*36,
 12+(((inventory_Slots-1) div rowLenght)+1)*36
 );
@@ -12,8 +15,8 @@ y-6,
 for (var i = 0; i<inventory_Slots;i+=1){
 	//desenha o hover nos slots
 
-	var xx = x + (i mod rowLenght) *36 +2;
-	var yy = y + (i div rowLenght) *36 +2;
+	var xx = x + 5 + (i mod rowLenght) *36 +2;
+	var yy = y + 5 + (i div rowLenght) *36 +2;
 	var hover = (O_MouseControl.inventoryHover == id) && (O_MouseControl.slotHover = i);
 	draw_sprite(Slot,hover,xx,yy);
 	//draw_sprite(Slot,0,xx,yy);

@@ -10,7 +10,7 @@ target_y = 0;
 pacify = 1;
 ja_atacou=0;
 ja_morto = 0;
-var var_col = false;
+var_col = false;
 
 event_inherited();
 

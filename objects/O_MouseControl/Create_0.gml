@@ -36,15 +36,16 @@ mouseOver = function(){
 				if (point_in_rectangle(mx,my,xx,yy,xx+32,yy+32)){
 					other.slotHover = i;
 					other.inventoryHover = id;
-					show_debug_message("ishover");
+					//show_debug_message("ishover");
 					draw_sprite(Sprite_Objects_Tools,i,mouse_x-20,mouse_y-20);
-					show_debug_message();
+					draw_text(16,32,inventory_name);
 					
 					is_hover = true;
 				} 
 			
 			}
-	}else{is_hover = false; show_debug_message("nothover");}
+	}else{is_hover = false; //show_debug_message("nothover");
+		}
 
 
 	}

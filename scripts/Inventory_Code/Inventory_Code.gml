@@ -27,6 +27,7 @@ function InventoryAdd(rootObject,SelectedItem){
 	var _slot = Inventory_search(rootObject,-1);
 	if(_slot != -1){
 		with (rootObject) inventory[_slot] = SelectedItem;
+		//with (rootObject) inventory_name[_slot] = SelectedItem;
 		return true;
 	}
 	else return false;

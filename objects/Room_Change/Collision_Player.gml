@@ -3,11 +3,13 @@ other.x = targetX;
 other.y = targetY;
 
 
-
-Time_Game = Time_Game +1;
-show_debug_message(Time_Game);
-if(Time_Game >= 23){
-show_debug_message("jogo acabooou");
-}else{
-	show_debug_message("keep playing");
-}  
+with(Clock_Total){
+Clock = Clock +1;
+show_debug_message("Clocktime is: " + string(Clock));
+}
+//show_debug_message(Time_Game);
+//if(Time_Game >= 23){
+//show_debug_message("jogo acabooou");
+//}else{
+//	show_debug_message("keep playing");
+//}  

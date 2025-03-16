@@ -33,7 +33,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"Goose_Regular_Idle",
     "path":"sprites/Goose_Regular_Idle/Goose_Regular_Idle.yy",

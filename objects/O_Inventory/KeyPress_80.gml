@@ -1,1 +1,1 @@
-InventoryAdd(id,irandom(20));
+InventoryAdd(id,irandom(50));
